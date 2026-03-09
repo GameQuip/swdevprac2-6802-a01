@@ -128,6 +128,57 @@ h1 {
     color: white;
 }
 
+.form-section {
+    margin-bottom: 30px;
+}
+
+.form-section h3 {
+    font-size: 1.2rem;
+    color: #ff7b54;
+    border-bottom: 2px solid #ffe8d6;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    font-size: 0.95rem;
+    color: #444;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 1rem;
+    transition: all 0.3s;
+    box-sizing: border-box;
+}
+
+input:focus, select:focus, textarea:focus {
+    outline: none;
+    border-color: #ff7b54;
+    box-shadow: 0 0 8px rgba(255, 123, 84, 0.2);
+    background-color: #fff;
+}
+
+textarea {
+    resize: vertical;
+}
+
 .radio-group {
     display: flex;
     flex-direction: column;
