@@ -32,25 +32,31 @@
         </div>
 
         <div class="form-section">
-            <h3>Lifestyle</h3>
+            <h3>Living Condition</h3>
+            <div class="input-group">
+                <label for="address">Home Address</label>
+                <textarea id="address" name="address" rows="3" placeholder="บ้านเลขที่, ถนน, แขวง/ตำบล, เขต/อำเภอ, จังหวัด, รหัสไปรษณีย์" required></textarea>
+            </div>
+            
             <div class="input-group">
                 <label for="housing">Housing Type</label>
                 <select id="housing" name="housing" required>
                     <option value="">Please choose</option>
-                    <option value="detached">Detached House</option>
-                    <option value="townhouse">Townhouse</option>
-                    <option value="condo">Condominium</option>
-                    <option value="others">Others</option>
+                    <option value="garden">บ้านสวน</option>
+                    <option value="detached">บ้านเดี่ยว</option>
+                    <option value="townhome">บ้านทาวน์โฮม</option>
+                    <option value="condo">คอนโดมิเนียม/หอพัก</option>
                 </select>
             </div>
 
             <div class="input-group">
+                <h3>Lifestyle</h3>
                 <div class="radio-group">
                     <label class="radio-label">
-                        <input type="radio" name="living-style" value="indoor" required>Indoor
+                        <input type="radio" name="living-style" value="indoor" required>เลี้ยงสุนัขภายในบ้าน
                     </label>
                     <label class="radio-label">
-                        <input type="radio" name="living-style" value="outdoor">Outdoor
+                        <input type="radio" name="living-style" value="outdoor">เลี้ยงสุนัขภายนอกบ้าน
                     </label>
                 </div>
             </div>
