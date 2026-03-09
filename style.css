@@ -129,7 +129,12 @@ h1 {
 }
 
 .form-section {
+    max-width: 1000px;
     margin-bottom: 30px;
+    background: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
 .form-section h3 {
